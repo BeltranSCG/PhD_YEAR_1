@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1603824783 "Research_Proposal.tex" "Research_Proposal.pdf" "Research_Proposal" 1603824784
+["pdflatex"] 1603824783 "Research_Proposal.tex" "Research_Proposal.pdf" "Research_Proposal" 1603879507
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -60,5 +60,5 @@
   "Research_Proposal.tex" 1603822748 150 69bf3018e06e0a76ac20f8c6fd61ce1a ""
   (generated)
   "Research_Proposal.log"
-  "Research_Proposal.aux"
   "Research_Proposal.pdf"
+  "Research_Proposal.aux"
