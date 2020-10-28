@@ -1,0 +1,45 @@
+{
+  "MODTRAN": [
+    {
+      "MODTRANINPUT": {
+        "NAME": "Transm_Wavenumbers_GUI",
+        "CASE": 0,
+        "RTOPTIONS": {
+          "MODTRN": "RT_MODTRAN",       # band model calculation
+          "IEMSCT": "RT_TRANSMITTANCE"  # transmittance only
+        },
+        "ATMOSPHERE": {
+          "CO2MX": 0.0,                 # default CO2 profile
+          "H2OSTR": 0.0,                # default H2O profile
+          "O3STR": 0.0                  # default O3 profile
+        },
+        "AEROSOLS": {
+          "IHAZE": "AER_NONE"           # no aerosols
+        },
+        "GEOMETRY": {
+          "ITYPE": 2,                   # slant path between altitudes
+          "H1ALT": 0.0,                 # ground sensor
+          "H2ALT": 100.0,               # path to top-of-atmosphere
+          "OBSZEN": 0.0                 # zenith path
+        },
+        "SURFACE": {
+          "SURFTYPE": "REFL_CONSTANT",  # constant reflectance
+          "SURREF": 0.0                 # blackbody surface
+        },
+        "SPECTRAL": {
+          "V1": 2000.0,                 # 2000 cm-1 starting frequency
+          "V2": 5000.0,                 # 5000 cm-1 ending frequency
+          "DV": 1.0,                    # 1 cm-1 output step size
+          "FWHM": 2.0,                  # 2 cm-1 spectral resolution
+          "FLAGS": "WTA    "            # Wavenumber spectral unit
+                                        # Triangular slit function
+                                        # convolve All spectral output
+        },
+        "FILEOPTIONS": {
+          "BINARY": false,              # ASCII output
+          "NOPRNT": 0                   # default output files
+        }
+      }
+    }
+  ]
+}
